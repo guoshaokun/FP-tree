@@ -1,0 +1,12 @@
+
+#include <iostream>
+#include <string>
+using namespace std;
+class TreeNode {
+  string NodeName;
+  int    SupCount; 
+  TreeNode *ParentNode;
+  TreeNode *nextHomony;
+  vector<TreeNode *> ChildrenNodeList;
+
+}
